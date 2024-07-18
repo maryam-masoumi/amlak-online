@@ -1,0 +1,109 @@
+@font-face {
+  font-family: IranSans;
+  src: url("./../fonts/woff2/IRANSansWeb.woff2") format("woff2"),
+    url("./../fonts/woff/IRANSansWeb.woff") format("woff"),
+    url("./../fonts/ttf/IRANSansWeb.ttf") format("ttf");
+}
+
+body {
+  margin: 1rem 4rem;
+  font-family: "IranSans";
+  overflow: hidden;
+}
+
+.title {
+  display: flex;
+  margin: 5px 30px;
+  justify-content: space-between;
+  p {
+    color: #015432;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  a {
+    text-decoration: none;
+    color: #015432;
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto 0px;
+  }
+}
+
+.countainer {
+  overflow: hidden;
+  border: 1px solid rgba(204, 204, 204, 0.3);
+  border-radius: 17px;
+  background-color: rgba(204, 204, 204, 0.3);
+  width: 304px;
+  flex-shrink: 0;
+  align-items: center;
+  transition: transform 500ms ease;
+
+  > .product-titles {
+    display: flex;
+    text-align: right;
+    align-content: center;
+    margin-right: 10px;
+  }
+
+  &:hover {
+    transform: translate(0,-10px);
+  }
+}
+
+.pictures {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-img:hover {
+  transform: scale(1.1);
+}
+
+.star-image {
+  position: absolute;
+  z-index: 1000px;
+  left: 20px;
+  top: 20px;
+}
+
+.blue-sign {
+  position: absolute;
+  z-index: 1000px;
+  right: 20px;
+  top: 16px;
+}
+
+.product-titles img {
+  margin-top: 10px;
+  width: 46.769px;
+  height: 45.725px;
+  border-radius: 50%;
+}
+
+.product-titles p {
+  color: #111;
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.description p {
+  overflow: hidden;
+  text-align: justify;
+  margin: 10px auto;
+  width: 90%;
+  font-weight: 400;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.59);
+  align-content: center;
+}
