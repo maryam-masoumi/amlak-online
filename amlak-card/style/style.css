@@ -1,0 +1,59 @@
+@font-face {
+  font-family: IranSans;
+  src: url("../assets/font/woff2/IRANSansWeb.woff2") format("woff2"),
+    url("../assets/font/woff/IRANSansWeb.woff") format("woff"),
+    url("../assets/font/ttf/IRANSansWeb.ttf") format("ttf");
+}
+.container {
+  font-family: "IranSans";
+  overflow: hidden;
+  width: 300px;
+  margin: auto 20px;
+  border: 0.5px solid rgba(204, 204, 204, 0.3);
+  background-color: rgba(204, 204, 204, 0.3);
+  border-radius: 15px;
+}
+.agancy-img img {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+.agancy-des {
+  overflow: hidden;
+
+  > .agancy-name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  > .description {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  margin: 5% 10% 10% 10%;
+  a {
+    text-decoration: none;
+    width: 70%;
+    font-size: 100%;
+  }
+  > .stars {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    direction: ltr;
+    width: 30%;
+    height: 30%;
+
+    img {
+      width: 20%;
+      height: 20%;
+    }
+  }
+}
