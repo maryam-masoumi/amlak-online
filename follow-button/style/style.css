@@ -1,0 +1,59 @@
+@font-face {
+  font-family: IranSans;
+  src: url("../assets/fonts/woff2/IRANSansWeb.woff2") format("woff2"),
+    url("../assets/fonts/woff/IRANSansWeb.woff") format("woff"),
+    url("../assets/fonts/ttf/IRANSansWeb.ttf") format("ttf");
+}
+body {
+  margin: 0;
+}
+.container {
+  font-family:IranSans;
+  margin: 10px 50px;
+  background-color: #014532;
+  padding: 10px 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .button button {
+    font-family:IranSans;
+    width: 134.018px;
+    height: 45px;
+    border-radius: 16px;
+    border: 1px solid #1b4332;
+    background: #ccc;
+    text-align: center;
+    font-family: IRANSansWeb(FaNum);
+    font-size: 15px;
+  }
+  > .amlak {
+    display: flex;
+    justify-content: space-between;
+    >.title p{
+       line-height:0.5;
+      
+    }
+    }
+   p#name{
+    margin-left: 20px;
+      margin-top: 50px;
+      margin-bottom: 0;
+      color: #fff;
+      font-size: 20px;
+     
+    }
+    p#add{
+        line-height: 1;
+        margin-left: 20px;
+        color: #fff;
+       font-size: 14px;
+    }
+    img {
+      margin: 30px 10px;
+    }
+  }
+
+  button:hover{
+    cursor: pointer;
+  }

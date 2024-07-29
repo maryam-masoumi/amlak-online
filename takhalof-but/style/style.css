@@ -1,0 +1,25 @@
+@font-face {
+  font-family: IranSans;
+  src: url("../assetes/fonts/woff2/IRANSansWeb.woff2") format("woff2"),
+    url("../assetes/fonts/woff/IRANSansWeb.woff") format("woff"),
+    url("../assetes/fonts/ttf/IRANSansWeb.ttf") format("ttf");
+}
+button {
+  font-family: IranSans;
+  margin: 20px 40px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid #014532;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #014532;
+  background-color: #fff;
+  transition: 0.3s;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #014532;
+  color: #fff;
+}
